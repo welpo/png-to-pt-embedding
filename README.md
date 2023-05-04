@@ -4,7 +4,11 @@ This is a standalone Python script for converting PNG image embeddings generated
 
 ## Installation
 
-You can install the requirements with:
+1. Clone or download this repository to your local machine.
+
+2. Open a terminal or command prompt and navigate to the directory containing the repository.
+
+3. Install the required packages by running the following command:
 
 ```bash
 pip install -r requirements.txt
@@ -12,12 +16,12 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Clone this repository or download the script.
-2. Open a terminal or command prompt, navigate to the directory containing the script.
-3. Run the script using the following command:
+1. Navigate to the directory containing the script (alternatively, you can place the script in your system's `$PATH` to run it from anywhere).
+
+2. Run the script using the following command:
 
 ```bash
-python png_embedding_to_pt.py <path/to/image1.png> <path/to/image2.png> ... -o <output_dir>
+python png_embedding_to_pt.py <path/to/image1.png> <path/to/image2.png> … -o <output_dir>
 ```
 For example:
 
